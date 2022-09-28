@@ -15,7 +15,7 @@ public class TemperatureConverterControllerTests
         var sut = new TemperatureConverterController(mockLogger.Object);
 
         var actual = sut.Convert(from, to, amount);
-        
+
         Assert.Equal(expected, actual.GetType());
     }
 
@@ -26,7 +26,7 @@ public class TemperatureConverterControllerTests
         var sut = new TemperatureConverterController(mockLogger.Object);
 
         var actual = sut.Convert("celcius", "kelvin", 0);
-        
+
         mockLogger.Verify(x => x.LogConversion(null, 0, "celcius", "kelvin"), Times.Once);
         mockLogger.VerifyNoOtherCalls();
     }

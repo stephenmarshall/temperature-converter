@@ -13,3 +13,60 @@
 2022-09-28 18:23:40.865 +01:00 [INF] Executed endpoint 'TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api)'
 2022-09-28 18:23:40.866 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7119/TemperatureConverter?from=Celcius&to=Fahrenheit&amount=20 - - - 200 - application/json;+charset=utf-8 68.8659ms
 2022-09-28 18:24:02.407 +01:00 [INF] Application is shutting down...
+2022-09-28 20:40:06.983 +01:00 [INF] Now listening on: https://localhost:7119
+2022-09-28 20:40:06.993 +01:00 [INF] Now listening on: http://localhost:5120
+2022-09-28 20:40:06.995 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-28 20:40:06.996 +01:00 [INF] Hosting environment: Development
+2022-09-28 20:40:06.996 +01:00 [INF] Content root path: /Users/stephenmarshall/coding-projects/temperature-converter/backend/TemperatureConverter/TemperatureConverter.Api/
+2022-09-28 20:41:12.523 +01:00 [INF] Application is shutting down...
+2022-09-28 20:41:31.265 +01:00 [INF] Now listening on: https://localhost:7119
+2022-09-28 20:41:31.275 +01:00 [INF] Now listening on: http://localhost:5120
+2022-09-28 20:41:31.278 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-28 20:41:31.278 +01:00 [INF] Hosting environment: Development
+2022-09-28 20:41:31.278 +01:00 [INF] Content root path: /Users/stephenmarshall/coding-projects/temperature-converter/backend/TemperatureConverter/TemperatureConverter.Api/
+2022-09-28 20:47:26.183 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7119/TemperatureConverter?from=Celcius&to=Fahrenheit&amount=20 - -
+2022-09-28 20:47:26.218 +01:00 [INF] CORS policy execution successful.
+2022-09-28 20:47:26.219 +01:00 [INF] Executing endpoint 'TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api)'
+2022-09-28 20:47:26.229 +01:00 [INF] Route matched with {action = "Convert", controller = "TemperatureConverter"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Convert(System.String, System.String, Double) on controller TemperatureConverter.Api.Controllers.TemperatureConverterController (TemperatureConverter.Api).
+2022-09-28 20:47:26.238 +01:00 [INF] unknown_user converted 20 from Celcius to Fahrenheit at "2022-09-28T20:47:26.2380420+01:00"
+2022-09-28 20:47:26.241 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Double'.
+2022-09-28 20:47:26.248 +01:00 [INF] Executed action TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api) in 17.4017ms
+2022-09-28 20:47:26.248 +01:00 [INF] Executed endpoint 'TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api)'
+2022-09-28 20:47:26.249 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7119/TemperatureConverter?from=Celcius&to=Fahrenheit&amount=20 - - - 200 - application/json;+charset=utf-8 69.2523ms
+2022-09-28 20:47:27.538 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7119/TemperatureConverter?from=Celcius&to=Fahrenheit&amount=20 - -
+2022-09-28 20:47:27.540 +01:00 [INF] CORS policy execution successful.
+2022-09-28 20:47:27.540 +01:00 [INF] Executing endpoint 'TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api)'
+2022-09-28 20:47:27.540 +01:00 [INF] Route matched with {action = "Convert", controller = "TemperatureConverter"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Convert(System.String, System.String, Double) on controller TemperatureConverter.Api.Controllers.TemperatureConverterController (TemperatureConverter.Api).
+2022-09-28 20:47:27.542 +01:00 [INF] unknown_user converted 20 from Celcius to Fahrenheit at "2022-09-28T20:47:27.5418520+01:00"
+2022-09-28 20:47:27.545 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Double'.
+2022-09-28 20:47:27.546 +01:00 [INF] Executed action TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api) in 5.8892ms
+2022-09-28 20:47:27.547 +01:00 [INF] Executed endpoint 'TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api)'
+2022-09-28 20:47:27.547 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7119/TemperatureConverter?from=Celcius&to=Fahrenheit&amount=20 - - - 200 - application/json;+charset=utf-8 8.7991ms
+2022-09-28 20:47:33.098 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7119/TemperatureConverter?from=Celcius&to=Fahrenheit&amount=25 - -
+2022-09-28 20:47:33.099 +01:00 [INF] CORS policy execution successful.
+2022-09-28 20:47:33.100 +01:00 [INF] Executing endpoint 'TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api)'
+2022-09-28 20:47:33.100 +01:00 [INF] Route matched with {action = "Convert", controller = "TemperatureConverter"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Convert(System.String, System.String, Double) on controller TemperatureConverter.Api.Controllers.TemperatureConverterController (TemperatureConverter.Api).
+2022-09-28 20:47:33.101 +01:00 [INF] unknown_user converted 25 from Celcius to Fahrenheit at "2022-09-28T20:47:33.1013360+01:00"
+2022-09-28 20:47:33.103 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Double'.
+2022-09-28 20:47:33.104 +01:00 [INF] Executed action TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api) in 3.4178ms
+2022-09-28 20:47:33.104 +01:00 [INF] Executed endpoint 'TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api)'
+2022-09-28 20:47:33.107 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7119/TemperatureConverter?from=Celcius&to=Fahrenheit&amount=25 - - - 200 - application/json;+charset=utf-8 9.5732ms
+2022-09-28 20:47:40.533 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7119/TemperatureConverter?from=Celcius&to=Fahrenheit&amount=20 - -
+2022-09-28 20:47:40.533 +01:00 [INF] CORS policy execution successful.
+2022-09-28 20:47:40.533 +01:00 [INF] Executing endpoint 'TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api)'
+2022-09-28 20:47:40.534 +01:00 [INF] Route matched with {action = "Convert", controller = "TemperatureConverter"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Convert(System.String, System.String, Double) on controller TemperatureConverter.Api.Controllers.TemperatureConverterController (TemperatureConverter.Api).
+2022-09-28 20:47:40.534 +01:00 [INF] unknown_user converted 20 from Celcius to Fahrenheit at "2022-09-28T20:47:40.5346090+01:00"
+2022-09-28 20:47:40.544 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Double'.
+2022-09-28 20:47:40.545 +01:00 [INF] Executed action TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api) in 10.8013ms
+2022-09-28 20:47:40.545 +01:00 [INF] Executed endpoint 'TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api)'
+2022-09-28 20:47:40.545 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7119/TemperatureConverter?from=Celcius&to=Fahrenheit&amount=20 - - - 200 - application/json;+charset=utf-8 12.3840ms
+2022-09-28 20:47:57.281 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7119/TemperatureConverter?from=Celcius&to=Fahrenheit&amount=5 - -
+2022-09-28 20:47:57.281 +01:00 [INF] CORS policy execution successful.
+2022-09-28 20:47:57.281 +01:00 [INF] Executing endpoint 'TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api)'
+2022-09-28 20:47:57.281 +01:00 [INF] Route matched with {action = "Convert", controller = "TemperatureConverter"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Convert(System.String, System.String, Double) on controller TemperatureConverter.Api.Controllers.TemperatureConverterController (TemperatureConverter.Api).
+2022-09-28 20:47:57.282 +01:00 [INF] unknown_user converted 5 from Celcius to Fahrenheit at "2022-09-28T20:47:57.2823930+01:00"
+2022-09-28 20:47:57.293 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Double'.
+2022-09-28 20:47:57.294 +01:00 [INF] Executed action TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api) in 12.0352ms
+2022-09-28 20:47:57.294 +01:00 [INF] Executed endpoint 'TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api)'
+2022-09-28 20:47:57.294 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7119/TemperatureConverter?from=Celcius&to=Fahrenheit&amount=5 - - - 200 - application/json;+charset=utf-8 13.4322ms
+2022-09-28 20:52:27.214 +01:00 [INF] Application is shutting down...

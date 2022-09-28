@@ -17,7 +17,7 @@ public class TemperatureConverterController : ControllerBase
     [HttpGet(Name = "convert")]
     public ActionResult Convert(string from, string to, double amount)
     {
-        _logger.LogConversion(HttpContext?.User.Identity?.Name, 
+        _logger.LogConversion(HttpContext?.User.Identity?.Name,
             amount, from, to);
 
         Unit fromUnit, toUnit;

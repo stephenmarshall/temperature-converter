@@ -70,3 +70,35 @@
 2022-09-28 20:47:57.294 +01:00 [INF] Executed endpoint 'TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api)'
 2022-09-28 20:47:57.294 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7119/TemperatureConverter?from=Celcius&to=Fahrenheit&amount=5 - - - 200 - application/json;+charset=utf-8 13.4322ms
 2022-09-28 20:52:27.214 +01:00 [INF] Application is shutting down...
+2022-09-28 22:27:03.372 +01:00 [INF] Now listening on: https://localhost:7119
+2022-09-28 22:27:03.383 +01:00 [INF] Now listening on: http://localhost:5120
+2022-09-28 22:27:03.386 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-28 22:27:03.386 +01:00 [INF] Hosting environment: Development
+2022-09-28 22:27:03.386 +01:00 [INF] Content root path: /Users/stephenmarshall/coding-projects/temperature-converter/backend/TemperatureConverter/TemperatureConverter.Api/
+2022-09-28 22:27:11.502 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7119/TemperatureConverter?from=Celcius&to=Kelvin&amount=0 - -
+2022-09-28 22:27:11.537 +01:00 [INF] CORS policy execution successful.
+2022-09-28 22:27:11.539 +01:00 [INF] Executing endpoint 'TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api)'
+2022-09-28 22:27:11.549 +01:00 [INF] Route matched with {action = "Convert", controller = "TemperatureConverter"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Convert(System.String, System.String, Double) on controller TemperatureConverter.Api.Controllers.TemperatureConverterController (TemperatureConverter.Api).
+2022-09-28 22:27:11.560 +01:00 [INF] unknown_user converted 0 from Celcius to Kelvin at "2022-09-28T22:27:11.5603620+01:00"
+2022-09-28 22:27:11.564 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Double'.
+2022-09-28 22:27:11.572 +01:00 [INF] Executed action TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api) in 20.1695ms
+2022-09-28 22:27:11.572 +01:00 [INF] Executed endpoint 'TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api)'
+2022-09-28 22:27:11.572 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7119/TemperatureConverter?from=Celcius&to=Kelvin&amount=0 - - - 200 - application/json;+charset=utf-8 72.1788ms
+2022-09-28 22:27:33.194 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7119/TemperatureConverter?from=Celcius&to=Kelvin&amount=0 - -
+2022-09-28 22:27:33.195 +01:00 [INF] CORS policy execution successful.
+2022-09-28 22:27:33.195 +01:00 [INF] Executing endpoint 'TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api)'
+2022-09-28 22:27:33.195 +01:00 [INF] Route matched with {action = "Convert", controller = "TemperatureConverter"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Convert(System.String, System.String, Double) on controller TemperatureConverter.Api.Controllers.TemperatureConverterController (TemperatureConverter.Api).
+2022-09-28 22:27:33.196 +01:00 [INF] unknown_user converted 0 from Celcius to Kelvin at "2022-09-28T22:27:33.1964410+01:00"
+2022-09-28 22:27:33.196 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Double'.
+2022-09-28 22:27:33.196 +01:00 [INF] Executed action TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api) in 1.04ms
+2022-09-28 22:27:33.197 +01:00 [INF] Executed endpoint 'TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api)'
+2022-09-28 22:27:33.197 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7119/TemperatureConverter?from=Celcius&to=Kelvin&amount=0 - - - 200 - application/json;+charset=utf-8 3.0980ms
+2022-09-28 22:27:46.377 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7119/TemperatureConverter?from=Celcius&to=Kelvin&amount=0 - -
+2022-09-28 22:27:46.378 +01:00 [INF] CORS policy execution successful.
+2022-09-28 22:27:46.378 +01:00 [INF] Executing endpoint 'TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api)'
+2022-09-28 22:27:46.379 +01:00 [INF] Route matched with {action = "Convert", controller = "TemperatureConverter"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Convert(System.String, System.String, Double) on controller TemperatureConverter.Api.Controllers.TemperatureConverterController (TemperatureConverter.Api).
+2022-09-28 22:27:46.379 +01:00 [INF] unknown_user converted 0 from Celcius to Kelvin at "2022-09-28T22:27:46.3797470+01:00"
+2022-09-28 22:27:46.380 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Double'.
+2022-09-28 22:27:46.380 +01:00 [INF] Executed action TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api) in 1.6076ms
+2022-09-28 22:27:46.381 +01:00 [INF] Executed endpoint 'TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api)'
+2022-09-28 22:27:46.381 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7119/TemperatureConverter?from=Celcius&to=Kelvin&amount=0 - - - 200 - application/json;+charset=utf-8 3.9690ms

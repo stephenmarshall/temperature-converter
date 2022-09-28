@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureConverter.Api", "TemperatureConverter.Api\TemperatureConverter.Api.csproj", "{A2BFD98B-3FE6-4DAF-B6FC-B4AAA5C87BFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemperatureConverter.Api.UnitTests", "TemperatureConverter.Api.UnitTests\TemperatureConverter.Api.UnitTests.csproj", "{E040D75F-8FB6-4FE4-A8CB-690CFCD9C48B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2BFD98B-3FE6-4DAF-B6FC-B4AAA5C87BFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2BFD98B-3FE6-4DAF-B6FC-B4AAA5C87BFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2BFD98B-3FE6-4DAF-B6FC-B4AAA5C87BFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2BFD98B-3FE6-4DAF-B6FC-B4AAA5C87BFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E040D75F-8FB6-4FE4-A8CB-690CFCD9C48B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E040D75F-8FB6-4FE4-A8CB-690CFCD9C48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E040D75F-8FB6-4FE4-A8CB-690CFCD9C48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E040D75F-8FB6-4FE4-A8CB-690CFCD9C48B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+<h1>Temperature converter</h1>
+<div>
+  <label for="from">from</label>
+  <select name="from" id="from" [(ngModel)]="model.from">
+    <option *ngFor="let unit of units" [value]="unit">{{ unit }}</option>
+  </select>
+  <label for="to">to</label>
+  <select name="to" id="to" [(ngModel)]="model.to">
+    <option *ngFor="let unit of units" [value]="unit">{{ unit }}</option>
+  </select>
+  <label for="amount">amount</label>
+  <input name="amount" id="amount" [(ngModel)]="model.amount" />
+  <button (click)="convert();">Convert</button>
+  The result is: {{result}}
+</div>

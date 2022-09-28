@@ -1,0 +1,15 @@
+2022-09-28 18:23:10.102 +01:00 [INF] Now listening on: https://localhost:7119
+2022-09-28 18:23:10.111 +01:00 [INF] Now listening on: http://localhost:5120
+2022-09-28 18:23:10.113 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-09-28 18:23:10.113 +01:00 [INF] Hosting environment: Development
+2022-09-28 18:23:10.113 +01:00 [INF] Content root path: /Users/stephenmarshall/coding-projects/temperature-converter/backend/TemperatureConverter/TemperatureConverter.Api/
+2022-09-28 18:23:40.800 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7119/TemperatureConverter?from=Celcius&to=Fahrenheit&amount=20 - -
+2022-09-28 18:23:40.835 +01:00 [INF] CORS policy execution successful.
+2022-09-28 18:23:40.836 +01:00 [INF] Executing endpoint 'TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api)'
+2022-09-28 18:23:40.846 +01:00 [INF] Route matched with {action = "Convert", controller = "TemperatureConverter"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.ActionResult Convert(System.String, System.String, Double) on controller TemperatureConverter.Api.Controllers.TemperatureConverterController (TemperatureConverter.Api).
+2022-09-28 18:23:40.855 +01:00 [INF] unknown_user converted 20 from Celcius to Fahrenheit at "2022-09-28T18:23:40.8549540+01:00"
+2022-09-28 18:23:40.859 +01:00 [INF] Executing OkObjectResult, writing value of type 'System.Double'.
+2022-09-28 18:23:40.865 +01:00 [INF] Executed action TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api) in 17.3943ms
+2022-09-28 18:23:40.865 +01:00 [INF] Executed endpoint 'TemperatureConverter.Api.Controllers.TemperatureConverterController.Convert (TemperatureConverter.Api)'
+2022-09-28 18:23:40.866 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7119/TemperatureConverter?from=Celcius&to=Fahrenheit&amount=20 - - - 200 - application/json;+charset=utf-8 68.8659ms
+2022-09-28 18:24:02.407 +01:00 [INF] Application is shutting down...
